@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belajar</title>
+</head>
+<body>
+    <main class="container">
+        <section class="card-left">
+            <div class="title-top">
+                <h1>BelajarYuk.</h1>
+                <p>Let's Learning Something New Today</p>
+            </div>
+            <div class="img-center">
+                <img src="img/img-menu-login.svg" alt="">
+            </div>
+            <div class="img-link">
+                <div>
+                    <img src="img/google_play.png" alt="imagem com o link da loja da google play" width="120px">
+                </div>
+                <div>
+                <img src="img/apple_store.png" alt="Imagem com o link da loja da apple Store" width="120px">
+                </div>
+            </div>
+        </section>
+        <section class="card-right">
+            <div class="container-principal-right">
+                <div class="title-right-top">
+                    <h2>Log in to BelajarYuk.</h2>
+                    <p>Welcome back! login with your data that you entered during registration</p>
+                </div>
+                <div class="login-with">
+                    <div class="box-google">
+                        <div class="button-google">
+                            <img src="img/google.svg">
+                            <p>Login with Google</p>
+                        </div>
+                    </div>
+                    <div class="box-facebook">
+                        <div class="button-facebook">
+                            <img src="img/facebook-f.svg">
+                            <p>Login with Facebook</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-h">
+                    <div class="row-left"></div>
+                    <div class="text">
+                        <p>or</p>
+                    </div>
+                    <div class="row-right"></div>
+                </div>
+                <div class="inputs">
+                    <div class="input-email">
+                        <div class="img-email">
+                            <img src="img/envelope-solid.svg" alt="" width="15px">
+                        </div>
+                        <div class="input-label">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="email" placeholder="youremail@gmail.com">
+                        </div>
+                    </div>
+                    <div class="input-password">
+                        <div class="img-password">
+                            <img src="img/lock-solid.svg"  width="15px">
+                        </div>
+                        <div class="input-label-password">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="tipoSenha"  placeholder="********" />
+                        </div>
+                        <div class="icon-eye">
+                            <img src="img/eye-slash-solid.svg" class="img-icon-eye"  width="15px" onclick="togglePasswordVisibility(this)" id="iconHideClose">
+                            <img src="img/eye-solid.svg" class="img-icon-eye"  width="15px" onclick="togglePasswordVisibility(this)" id="iconEyeOpen">
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <div class="input-check">
+                            <input type="checkbox" name="check" id="check">
+                            <label for="check">Remember me</label>
+                        </div>
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                </div>
+                <button>LOGIN</button>
+                <div class="register">
+                    <div class="content">
+                        <p>Don't have an account? <a href="@">Register</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
